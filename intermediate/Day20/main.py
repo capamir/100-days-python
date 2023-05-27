@@ -28,7 +28,7 @@ class Game:
         self.screen.onkey(key='d', fun=self.snake.turn_right)
         self.screen.onkey(key='a', fun=self.snake.turn_left)
         self.screen.onkey(key='c', fun=self.snake.clear)
-    
+
         # arrow keys
         self.screen.onkey(key='Up', fun=self.snake.turn_up)
         self.screen.onkey(key='Down', fun=self.snake.turn_down)
