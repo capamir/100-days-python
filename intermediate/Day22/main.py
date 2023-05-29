@@ -31,7 +31,7 @@ class Game:
         self._keys()
 
     def _keys(self):
-        """keyboard setup for moving the snake around"""
+        """keyboard setup for moving the paddles around"""
         self.screen.listen()
         # W S keys => left padde
         self.screen.onkey(key='w', fun=self.left_paddle.turn_up)
